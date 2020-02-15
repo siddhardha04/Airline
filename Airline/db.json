@@ -1,0 +1,192 @@
+{
+  "flights": [
+    {
+      "id": "pac01",
+      "flightName": "Pacific Airways",
+      "Origin": "Delhi",
+      "Destination": "Mumbai",
+      "departureTime": "11:30pm",
+      "arrivalTime": "5:00am",
+      "ancillaryServicesList": {
+        "meals": ["chicken biryani", "chicken tikka", "fish fry"],
+        "shoppingItems": ["magazine", "pen", "pencil"]
+      }
+    },
+    {
+      "id": "pac02",
+      "flightName": "Pacific Airways",
+      "Origin": "Mumbai",
+      "Destination": "Delhi",
+      "departureTime": "4:00pm",
+      "arrivalTime": "11:00pm",
+      "ancillaryServicesList": {
+        "meals": ["chicken biryani", "chicken tikka"],
+        "shoppingItems": ["pen", "pencil"]
+      }
+    },
+    {
+      "id": "eta01",
+      "flightName": "Ethihad Airways",
+      "Origin": "Hyderabad",
+      "Destination": "Mumbai",
+      "departureTime": "5:00pm",
+      "arrivalTime": "12:30am",
+      "ancillaryServicesList": {
+        "meals": ["Mutton biryani", "apollo fish", "lamb"],
+        "shoppingItems": ["item1", "item2", "item3"]
+      }
+    },
+    {
+      "id": "eta02",
+      "flightName": "Ethihad Airways",
+      "Origin": "Mumbai",
+      "Destination": "Hyderabad",
+      "departureTime": "6:00pm",
+      "arrivalTime": "2:00am",
+      "ancillaryServicesList": {
+        "meals": ["Mutton biryani", "apollo fish", "lamb"],
+        "shoppingItems": ["item1", "item2", "item3"]
+      }
+    }
+  ],
+  "users": [
+    {
+      "email": "admin@gmail.com",
+      "password": "admin@123",
+      "isAdmin": true,
+      "id": 1
+    },
+    {
+      "email": "staff@gmail.com",
+      "password": "staff@123",
+      "isAdmin": false,
+      "id": 2
+    },
+    {
+      "email": "staff2@gmail.com",
+      "password": "staff@123",
+      "isAdmin": false,
+      "id": 3
+    }
+  ],
+  "passengersList": [
+    {
+      "id": "abc01",
+      "flightId": "pac01",
+      "passengerName": "Maxx",
+      "category": "handicap",
+      "seatNo": "A1",
+      "passportNumber": "max123",
+      "address": "florida",
+      "dob": "01-10-1980",
+      "ancillaryServicesList": {
+        "meals": ["a", "b", "c"],
+        "shoppingItems": ["a", "b"]
+      }
+    },
+    {
+      "id": "abc02",
+      "flightId": "pac01",
+      "passengerName": "John",
+      "category": "normal",
+      "seatNo": "C5",
+      "passportNumber": "john123",
+      "address": "miami",
+      "dob": "10-05-1995",
+      "ancillaryServicesList": {
+        "meals": ["chicken biryani"],
+        "shoppingItems": ["magazine"]
+      }
+    },
+    {
+      "id": "abc03",
+      "flightId": "pac01",
+      "passengerName": "Abraham",
+      "category": "infant",
+      "seatNo": "B8",
+      "passportNumber": "Aba123",
+      "address": "kentucky",
+      "dob": "9-9-2017",
+      "ancillaryServicesList": {
+        "meals": ["chicken biryani"],
+        "shoppingItems": ["magazine"]
+      }
+    },
+    {
+      "flightId": "pac01",
+      "passengerName": "sarah",
+      "category": "handicap",
+      "address": "Los Angeles",
+      "passportNumber": "sar123",
+      "dob": "NA",
+      "seatNo": "B5",
+      "id": "abc04",
+      "ancillaryServicesList": {
+        "meals": ["chicken biryani"],
+        "shoppingItems": ["magazine"]
+      }
+    },
+    {
+      "id": "bcd01",
+      "flightId": "pac02",
+      "passengerName": "stuart",
+      "category": "normal",
+      "seatNo": "NA",
+      "passportNumber": "sta123",
+      "address": "new york",
+      "dob": "9-10-1980",
+      "ancillaryServicesList": {
+        "meals": ["chicken biryani"],
+        "shoppingItems": ["magazine"]
+      }
+    },
+    {
+      "id": "bcd02",
+      "flightId": "pac02",
+      "passengerName": "sarah",
+      "category": "normal",
+      "seatNo": "NA",
+      "passportNumber": "sar123",
+      "address": "new york",
+      "dob": "9-10-1985",
+      "ancillaryServicesList": {
+        "meals": ["chicken biryani"],
+        "shoppingItems": ["magazine"]
+      }
+    },
+    {
+      "id": "abc05",
+      "flightId": "pac01",
+      "passengerName": "Peter Pan",
+      "category": "infant",
+      "passportNumber": "pet678",
+      "address": "utah",
+      "dob": "25-10-2018",
+      "seatNo": "C6",
+      "ancillaryServicesList": {
+        "meals": ["chicken tikka"],
+        "shoppingItems": ["magazine"]
+      }
+    },
+    {
+      "id": "cde01",
+      "flightId": "eta01",
+      "passengerName": "john",
+      "category": "normal",
+      "seatNo": "NA",
+      "passportNumber": "jon123",
+      "address": "new york",
+      "dob": "10-10-1999"
+    },
+    {
+      "id": "def01",
+      "flightId": "eta02",
+      "passengerName": "peter",
+      "category": "handicap",
+      "seatNo": "NA",
+      "passportNumber": "pet903",
+      "address": "new york",
+      "dob": "19-05-1994"
+    }
+  ]
+}
