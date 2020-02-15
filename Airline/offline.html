@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Airline Management</title>
+    <meta charset="utf-8" />
+    <meta name="description" content="Airline checkin app" />
+    <meta name="theme-color" content="#000" />
+    <meta
+      name="viewport"
+      content="minimum-scale=1,initial-scale=1,width=device-width,shrink-to-fit=no"
+    />
+    <link rel="manifest" href="./manifest.json" />
+    <link rel="shortcut icon" href="/favicon.ico" />
+    <style>
+      .header {
+        width: 100%;
+        height: 56px;
+        color: #fff;
+        background: #000;
+        position: fixed;
+        font-size: 20px;
+        box-shadow: 0 4px 5px 0 rgba(0, 0, 0, 0.14),
+          0 2px 9px 1px rgba(0, 0, 0, 0.12), 0 4px 2px -2px rgba(0, 0, 0, 0.2);
+        padding: 16px 16px 0 16px;
+        will-change: transform;
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+        -webkit-flex-direction: row;
+        -ms-flex-direction: row;
+        flex-direction: row;
+        -webkit-flex-wrap: nowrap;
+        -ms-flex-wrap: nowrap;
+        flex-wrap: nowrap;
+        -webkit-box-pack: start;
+        -webkit-justify-content: flex-start;
+        -ms-flex-pack: start;
+        justify-content: flex-start;
+        -webkit-box-align: stretch;
+        -webkit-align-items: stretch;
+        -ms-flex-align: stretch;
+        align-items: stretch;
+        -webkit-align-content: center;
+        -ms-flex-line-pack: center;
+        align-content: center;
+        -webkit-transition: -webkit-transform 0.233s cubic-bezier(0, 0, 0.21, 1)
+          0.1s;
+        transition: -webkit-transform 0.233s cubic-bezier(0, 0, 0.21, 1) 0.1s;
+        transition: transform 0.233s cubic-bezier(0, 0, 0.21, 1) 0.1s;
+        z-index: 1000;
+      }
+      main {
+        padding-top: 60px;
+        -webkit-box-flex: 1;
+        -webkit-flex: 1;
+        -ms-flex: 1;
+        flex: 1;
+        overflow-x: hidden;
+        overflow-y: auto;
+        min-height: 500px;
+      }
+      .offline-card {
+        padding: 16px;
+        position: relative;
+        box-sizing: border-box;
+        background: #fff;
+        border-radius: 2px;
+        margin: 16px;
+        box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14),
+          0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 1px 5px 0 rgba(0, 0, 0, 0.12);
+      }
+    </style>
+  </head>
+  <body>
+    <header class="header">
+      <h6>
+        Airline Checkin
+      </h6>
+    </header>
+    <main class="main">
+      <div class="offline-card">
+        Oops, you appear to be offline, this app requires an internet
+        connection.
+      </div>
+    </main>
+    <script type="text/javascript" src="/bundle.js"></script>
+  </body>
+</html>

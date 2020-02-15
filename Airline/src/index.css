@@ -1,0 +1,278 @@
+/* Global Styles */
+*,
+:after,
+:before {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+  background-color: transparent;
+}
+
+#airline-app {
+  width: 100%;
+  margin: 0 auto;
+}
+
+img,
+svg {
+  vertical-align: middle;
+}
+img {
+  border-style: none;
+}
+
+footer {
+  width: 100%;
+  background-color: #20232a;
+  color: #fff;
+  text-align: center;
+  height: 65px;
+}
+
+.main-nav-header {
+  width: 100%;
+  background-color: #20232a;
+  min-height: 4rem;
+  position: sticky;
+  top: 0;
+  z-index: 1040;
+}
+
+.login-nav {
+  color: white;
+}
+
+.username-display {
+  flex: 1 1 0%;
+  align-items: center;
+}
+
+.login-display {
+  flex: 1 1 0%;
+  align-items: center;
+}
+
+.layout-wrapper {
+  position: relative;
+}
+.layout-container {
+  min-height: 500px;
+}
+
+.welcome-text {
+  position: absolute;
+  top: 80px;
+  left: 350px;
+  color: rgba(0, 0, 0, 0.9);
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 3rem;
+}
+
+.banner-img {
+  width: 100%;
+  height: 500px;
+}
+
+.error {
+  color: red;
+}
+
+.ap-wrapper {
+  width: 500px;
+  margin: 40px 350px;
+}
+
+.ancillary-list {
+  width: 100%;
+  min-height: 300px;
+  background-color: rgb(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.list-none {
+  list-style: none;
+}
+
+.spinner {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+}
+
+.categories {
+  height: 60px;
+  background-color: #eaeaea;
+  flex: 1 1 0;
+  padding: 10px;
+  display: flex;
+}
+
+.category-data {
+  display: flex;
+  flex: 1 1 25%;
+}
+
+.category-circle {
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+}
+
+.green {
+  background-color: green;
+}
+
+.red {
+  background-color: red;
+}
+
+.yellow {
+  background-color: yellow;
+}
+
+.blue {
+  background-color: #4646a7;
+}
+
+.flightcard-wrapper {
+  background-color: rgba(230, 212, 212, 0.6);
+  height: 180px;
+  margin-left: 100px;
+  margin-right: 100px;
+  padding-left: 50px;
+  padding-right: 50px;
+  margin-bottom: 15px;
+  margin-top: 15px;
+}
+.mt15 {
+  margin-top: 15px;
+}
+.ml25 {
+  margin-left: 25px;
+}
+.mr25 {
+  margin-right: 25px;
+}
+
+.ml50 {
+  margin-left: 50px;
+}
+
+.df {
+  display: flex;
+}
+
+.fdr {
+  flex-direction: row;
+}
+
+.fdc {
+  flex-direction: column;
+}
+
+.al {
+  align-content: center;
+}
+
+.jc {
+  justify-content: center;
+}
+
+.flex-item {
+  flex: 1 1 0;
+}
+
+.flex-item-80 {
+  flex: 1 1 80%;
+}
+
+.flex-item-25 {
+  flex: 1 1 25%;
+}
+
+.tac {
+  text-align: center;
+}
+
+.checkin-wrapper {
+  margin-left: 300px;
+  margin-right: 300px;
+  margin-top: 50px;
+}
+
+.seat {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  position: relative;
+  margin-bottom: 15px;
+  margin-left: 15px;
+}
+
+.seat-num {
+  position: absolute;
+  left: 9px;
+  top: 10px;
+}
+
+.up-wrapper {
+  width: 500px;
+  margin-left: 40px;
+}
+
+.side-nav {
+  width: 20%;
+  background-color: rgb(230, 226, 226);
+  min-height: 500px;
+  padding-top: 40px;
+}
+
+.main-content {
+  width: 80%;
+  background-color: #fff;
+  padding: 50px;
+}
+
+/* media queries */
+
+@media only screen and (max-width: 360px) {
+  .welcome-text {
+    top: 60px;
+    left: 0;
+    font-size: 30px;
+  }
+
+  .flightcard-wrapper {
+    width: 100%;
+    margin-left: 0px;
+  }
+}
+
+@media only screen and (min-width: 400px) and (max-width: 768px) {
+  .welcome-text {
+    top: 50px;
+    left: 150px;
+    font-size: 40px;
+  }
+
+  .layout-container {
+    min-height: 900px;
+  }
+
+  .banner-img {
+    height: 900px;
+  }
+
+  .login-display {
+    font-size: 25px;
+  }
+}

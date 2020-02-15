@@ -1,0 +1,48 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Will display seat categories 1`] = `
+<div
+  className="categories"
+>
+  <div
+    className="category-data"
+  >
+    <div
+      className="category-circle green"
+    />
+    <div>
+      :Not checked-in
+    </div>
+  </div>
+  <div
+    className="category-data"
+  >
+    <div
+      className="category-circle red"
+    />
+    <div>
+      :checked-in
+    </div>
+  </div>
+  <div
+    className="category-data"
+  >
+    <div
+      className="category-circle yellow"
+    />
+    <div>
+      :Infant
+    </div>
+  </div>
+  <div
+    className="category-data"
+  >
+    <div
+      className="category-circle blue"
+    />
+    <div>
+      :Handicap
+    </div>
+  </div>
+</div>
+`;

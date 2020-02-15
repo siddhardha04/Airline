@@ -1,0 +1,25 @@
+{
+  "name": "Airline Checkin Management",
+  "icons": [
+    {
+      "src": "/assests/logo144.png",
+      "sizes": "144x144",
+      "type": "image/png"
+    },
+    {
+      "src": "/assests/logo512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/assests/logo.png",
+      "sizes": "225x225",
+      "type": "image/png"
+    }
+  ],
+  "short_name": "Airline Checkin",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#FFF",
+  "theme_color": "#000"
+}

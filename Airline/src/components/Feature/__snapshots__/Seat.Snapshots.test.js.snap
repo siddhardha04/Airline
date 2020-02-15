@@ -1,0 +1,18 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Seat Will have B5 as seat no 1`] = `
+<div
+  className="seat"
+  style={
+    Object {
+      "backgroundColor": "green",
+    }
+  }
+>
+  <h6
+    className="seat-num"
+  >
+    B5
+  </h6>
+</div>
+`;
